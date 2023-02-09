@@ -20,14 +20,17 @@ p {
     left: 500px;
 }
 
-#img-left-moon {
-    margin-left: 55px;
-    transition-delay: .8s;
-    transition-duration: 2s;
+#footer {
+    height: 15rem;
+    width: 100%;
+    background-color: silver;
 }
 
-#img-left-moon:hover {
-    width: 500px;
-    height: 10rem;
-    transform: rotate(50deg);
+#a-footer {
+    font-size: 55px;
+}
+
+#nav-head {
+    position: absolute;
+    z-index: 1;
 }
